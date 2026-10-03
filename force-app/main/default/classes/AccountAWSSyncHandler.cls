@@ -1,3 +1,6 @@
+// AccountAWSSyncHandler.cls synce with AWS for Account records.
+// This class handles the callout to AWS and updates the Account records with the 
+//sync status.
 public class AccountAWSSyncHandler {
 
     public static void handleAccounts(List<Account> accounts) {
@@ -62,4 +65,4 @@ public class AccountAWSSyncHandler {
             update toUpdate;
         }
     }
-}   
+}
