@@ -1,0 +1,84 @@
+67.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: Account a = new Account(Name='Test Trigger');
+Execute Anonymous: insert as user a;
+11:24:30.1 (1852744)|USER_INFO|[EXTERNAL]|005ak00000AJWsr|ssatterf@mindful-impala-f33hr7.com|(GMT-04:00) Venezuela Time (America/Caracas)|GMT-04:00
+11:24:30.1 (1886914)|EXECUTION_STARTED
+11:24:30.1 (1904214)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+11:24:30.1 (2120146)|VARIABLE_SCOPE_BEGIN|[1]|a|Account|true|false
+11:24:30.1 (2271387)|HEAP_ALLOCATE|[95]|Bytes:3
+11:24:30.1 (2327598)|HEAP_ALLOCATE|[100]|Bytes:152
+11:24:30.1 (2338778)|HEAP_ALLOCATE|[417]|Bytes:408
+11:24:30.1 (2345748)|HEAP_ALLOCATE|[430]|Bytes:408
+11:24:30.1 (2360098)|HEAP_ALLOCATE|[317]|Bytes:6
+11:24:30.1 (2379698)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+11:24:30.1 (2645840)|STATEMENT_EXECUTE|[1]
+11:24:30.1 (2649450)|STATEMENT_EXECUTE|[1]
+11:24:30.1 (2672470)|HEAP_ALLOCATE|[1]|Bytes:4
+11:24:30.1 (2783231)|HEAP_ALLOCATE|[1]|Bytes:12
+11:24:30.1 (2920432)|VARIABLE_ASSIGNMENT|[1]|this.Name|"Test Trigger"|0x3f2a5d80
+11:24:30.1 (2964172)|VARIABLE_ASSIGNMENT|[1]|a|{"Name":"Test Trigger"}|0x3f2a5d80
+11:24:30.1 (2967983)|STATEMENT_EXECUTE|[2]
+11:24:30.1 (3015383)|VARIABLE_SCOPE_BEGIN|[6]|System.AccessLevel.SYSTEM_MODE|System.AccessLevel|true|true
+11:24:30.1 (3020413)|VARIABLE_SCOPE_BEGIN|[4]|System.AccessLevel.USER_MODE|System.AccessLevel|true|true
+11:24:30.1 (3031073)|HEAP_ALLOCATE|[2]|Bytes:8
+11:24:30.1 (3062243)|SYSTEM_METHOD_ENTRY|[1]|AccessLevel.AccessLevel()
+11:24:30.1 (3065803)|STATEMENT_EXECUTE|[1]
+11:24:30.1 (6692601)|SYSTEM_METHOD_EXIT|[1]|AccessLevel
+11:24:30.1 (6743702)|HEAP_ALLOCATE|[2]|Bytes:8
+11:24:30.1 (6799472)|DML_BEGIN|[2]|Op:Insert|Type:Account|Rows:1
+11:24:30.1 (6843193)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:24:30.1 (44921060)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:Account:new
+11:24:30.1 (44946080)|VALIDATION_RULE|03dak00000Cuxph|AWS_Sync_Status_Control
+11:24:30.1 (54242853)|VALIDATION_FORMULA|AND(
+    ISCHANGED(AWS_Sync_Status__c),
+    ISPICKVAL(AWS_Sync_Status__c, "Synced"),
+    NOT($Profile.Name = "System Administrator")
+)|$Profile.Name=System Administrator , AWS_Sync_Status__c=null
+11:24:30.1 (54265983)|VALIDATION_PASS
+11:24:30.1 (54283123)|CODE_UNIT_FINISHED|Validation:Account:new
+11:24:30.1 (128372501)|PUSH_TRACE_FLAGS|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger|APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,ERROR;DATA_ACCESS,NONE;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:24:30.1 (128442031)|CODE_UNIT_STARTED|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger on Account trigger event AfterInsert|__sfdc_trigger/AccountAWSSyncTrigger
+11:24:30.1 (165640220)|HEAP_DUMP|[1]|07nak000000TSFR|AccountAWSSyncTrigger|none|1
+11:24:30.194 (194801519)|CUMULATIVE_LIMIT_USAGE
+11:24:30.194 (194801519)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:24:30.194 (194801519)|CUMULATIVE_LIMIT_USAGE_END
+
+11:24:30.1 (195076871)|CODE_UNIT_FINISHED|AccountAWSSyncTrigger on Account trigger event AfterInsert|__sfdc_trigger/AccountAWSSyncTrigger
+11:24:30.1 (195129122)|POP_TRACE_FLAGS|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger|APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:24:30.1 (198354367)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Account
+11:24:30.1 (198412077)|CODE_UNIT_FINISHED|Workflow:Account
+11:24:30.1 (203698758)|DML_END|[2]
+11:24:30.265 (265581580)|CUMULATIVE_LIMIT_USAGE
+11:24:30.265 (265581580)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:24:30.265 (265581580)|CUMULATIVE_LIMIT_USAGE_END
+
+11:24:30.1 (265716921)|CODE_UNIT_FINISHED|execute_anonymous_apex
+11:24:30.1 (265737441)|EXECUTION_FINISHED

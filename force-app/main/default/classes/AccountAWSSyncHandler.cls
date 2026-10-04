@@ -4,14 +4,34 @@
 public class AccountAWSSyncHandler {
 
     public static void handleAccounts(List<Account> accounts) {
+        enqueueSync(accounts);
+    }
+
+    public static void handleAccounts(List<Account> accounts, Map<Id, Account> oldAccounts) {
+        List<Account> changedAccounts = new List<Account>();
+        for (Account account : accounts) {
+            Account oldAccount = oldAccounts.get(account.Id);
+            if (account.Name != oldAccount.Name ||
+                account.Industry != oldAccount.Industry ||
+                account.Phone != oldAccount.Phone ||
+                account.Website != oldAccount.Website ||
+                account.BillingCity != oldAccount.BillingCity) {
+                changedAccounts.add(account);
+            }
+        }
+        enqueueSync(changedAccounts);
+    }
+
+    private static void enqueueSync(List<Account> accounts) {
         Set<Id> accountIds = new Set<Id>();
         for (Account acc : accounts) {
             accountIds.add(acc.Id);
         }
-        doCalloutAndUpdate(accountIds);
+        if (!accountIds.isEmpty()) {
+            System.enqueueJob(new AccountAWSSyncQueueable(accountIds));
+        }
     }
 
-    @future(callout=true)
     public static void doCalloutAndUpdate(Set<Id> accountIds) {
         List<Account> accounts = [
             SELECT Id, Name, Industry, Phone, Website, BillingCity,
