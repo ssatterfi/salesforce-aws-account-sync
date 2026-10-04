@@ -21,7 +21,7 @@ def lambda_handler(event, context):
             'Phone': body.get('Phone', ''),
             'Website': body.get('Website', ''),
             'BillingCity': body.get('BillingCity', ''),
-            'AWS_Sync_Status__c': body.get('AWS_Sync_Status__c', ''),
+            'AWS_Sync_Status__c': 'Synced',
             'LastSynced': datetime.utcnow().isoformat() + 'Z'
         }
 
