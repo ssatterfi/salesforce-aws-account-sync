@@ -60,22 +60,32 @@ public class AccountAWSSyncHandler {
             req.setEndpoint('callout:AWS_Account_Sync');
             req.setMethod('POST');
             req.setHeader('Content-Type', 'application/json');
-            req.setBody(JSON.serialize(payload));
+            String requestBody = JSON.serialize(payload);
+            req.setBody(requestBody);
             req.setTimeout(120000);
 
             try {
+                System.debug(LoggingLevel.DEBUG, 'AWS Account Sync request body: ' + requestBody);
                 Http http = new Http();
                 HttpResponse res = http.send(req);
+                Integer statusCode = res.getStatusCode();
 
-                if (res.getStatusCode() >= 200 && res.getStatusCode() < 300) {
+                if (statusCode >= 200 && statusCode < 300) {
                     acc.AWS_Sync_Status__c = 'Synced';
                     acc.Last_AWS_Sync_Date__c = System.now();
                 } else {
                     acc.AWS_Sync_Status__c = 'Failed';
+                    System.debug(LoggingLevel.ERROR,
+                        'AWS Account Sync failed for Account ' + acc.Id +
+                        '. HTTP ' + statusCode + ' ' + res.getStatus() +
+                        '; response body: ' + res.getBody());
                 }
             } catch (Exception e) {
                 acc.AWS_Sync_Status__c = 'Failed';
-                System.debug('Callout error: ' + e.getMessage());
+                System.debug(LoggingLevel.ERROR,
+                    'AWS Account Sync callout exception for Account ' + acc.Id +
+                    ': ' + e.getTypeName() + ': ' + e.getMessage() +
+                    '\n' + e.getStackTraceString());
             }
 
             toUpdate.add(acc);
