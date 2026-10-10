@@ -27,4 +27,15 @@ Queueable Apex (best practice for callouts)
 Success and failure logging
 IAM-secured API Gateway using AWS Signature Version 4
 Fully free-tier compatible (AWS Free Tier + Salesforce Developer Edition)
+
+Tech Stack 
+
+Layer,Technology
+CRM,Salesforce (Apex Trigger + Queueable)
+Authentication,Named Credential + External Credential (AWS Signature V4)
+API,Amazon API Gateway (HTTP API)
+Compute,AWS Lambda (Python 3.12)
+Database,Amazon DynamoDB
+
+
  
