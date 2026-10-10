@@ -4,16 +4,5 @@ Real-time integration that syncs Salesforce Account records to Amazon DynamoDB u
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[Salesforce Account] -->|After Insert / Update| B[Apex Trigger]
-    B --> C[Queueable Apex]
-    C -->|HTTP Callout<br/>Named Credential| D[Amazon API Gateway]
-    D -->|IAM Auth| E[AWS Lambda]
-    E --> F[(Amazon DynamoDB)]
-    C -->|Update Status| A
+ <img width="1168" height="784" alt="image" src="https://github.com/user-attachments/assets/9737431d-c33b-435f-b54a-18f35621abe6" />
 
-    style A fill:#00A1E0,stroke:#333,color:#fff
-    style D fill:#FF9900,stroke:#333,color:#fff
-    style E fill:#FF9900,stroke:#333,color:#fff
-    style F fill:#3F8624,stroke:#333,color:#fff
