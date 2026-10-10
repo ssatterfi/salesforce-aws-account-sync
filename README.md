@@ -41,6 +41,7 @@ Real-time integration that syncs Salesforce Account records to Amazon DynamoDB u
  
  ## Project Structure
 
+
 salesforce-aws-account-sync/
 ├── force-app/                        # Salesforce DX source
 │   └── main/default/
