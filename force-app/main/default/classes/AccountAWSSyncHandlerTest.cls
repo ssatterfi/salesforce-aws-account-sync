@@ -17,6 +17,9 @@ private class AccountAWSSyncHandlerTest {
 
     private class FailedCalloutMock implements HttpCalloutMock {
         public HttpResponse respond(HttpRequest request) {
+            System.assertEquals('POST', request.getMethod());
+            System.assertEquals('callout:AWS_Account_Sync', request.getEndpoint());
+
             HttpResponse response = new HttpResponse();
             response.setStatusCode(403);
             response.setBody('{"message":"Forbidden"}');
@@ -34,12 +37,13 @@ private class AccountAWSSyncHandlerTest {
         Test.stopTest();
 
         Account syncedAccount = [
-            SELECT AWS_Sync_Status__c, Last_AWS_Sync_Date__c
+            SELECT AWS_Sync_Status__c, Last_AWS_Sync_Date__c, AWS_Sync_Error_Message__c
             FROM Account
             WHERE Id = :account.Id
         ];
         System.assertEquals('Synced', syncedAccount.AWS_Sync_Status__c);
         System.assertNotEquals(null, syncedAccount.Last_AWS_Sync_Date__c);
+        System.assertEquals('Success', syncedAccount.AWS_Sync_Error_Message__c);
     }
 
     @IsTest
@@ -52,11 +56,12 @@ private class AccountAWSSyncHandlerTest {
         Test.stopTest();
 
         Account failedAccount = [
-            SELECT AWS_Sync_Status__c, Last_AWS_Sync_Date__c
+            SELECT AWS_Sync_Status__c, Last_AWS_Sync_Date__c, AWS_Sync_Error_Message__c
             FROM Account
             WHERE Id = :account.Id
         ];
         System.assertEquals('Failed', failedAccount.AWS_Sync_Status__c);
         System.assertEquals(null, failedAccount.Last_AWS_Sync_Date__c);
+        System.assertEquals('HTTP 403 - {"message":"Forbidden"}', failedAccount.AWS_Sync_Error_Message__c);
     }
 }

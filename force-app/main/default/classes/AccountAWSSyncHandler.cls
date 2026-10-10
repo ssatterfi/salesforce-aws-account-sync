@@ -1,6 +1,6 @@
-// AccountAWSSyncHandler.cls synce with AWS for Account records.
-// This class handles the callout to AWS and updates the Account records with the 
-//sync status.
+// AccountAWSSyncHandler.cls
+// Handles enqueuing and performing the callout to AWS for Account records.
+// Updates AWS_Sync_Status__c, Last_AWS_Sync_Date__c and AWS_Sync_Error_Message__c.
 public class AccountAWSSyncHandler {
 
     public static void handleAccounts(List<Account> accounts) {
@@ -35,7 +35,7 @@ public class AccountAWSSyncHandler {
     public static void doCalloutAndUpdate(Set<Id> accountIds) {
         List<Account> accounts = [
             SELECT Id, Name, Industry, Phone, Website, BillingCity,
-                   AWS_Sync_Status__c, Last_AWS_Sync_Date__c
+                   AWS_Sync_Status__c, Last_AWS_Sync_Date__c, AWS_Sync_Error_Message__c
             FROM Account
             WHERE Id IN :accountIds
         ];
@@ -43,8 +43,9 @@ public class AccountAWSSyncHandler {
         List<Account> toUpdate = new List<Account>();
 
         for (Account acc : accounts) {
-            // Set status to Pending before callout
+            // Reset status before callout
             acc.AWS_Sync_Status__c = 'Pending';
+            acc.AWS_Sync_Error_Message__c = null;
 
             Map<String, Object> payload = new Map<String, Object>{
                 'Id'                  => acc.Id,
@@ -53,7 +54,7 @@ public class AccountAWSSyncHandler {
                 'Phone'               => acc.Phone,
                 'Website'             => acc.Website,
                 'BillingCity'         => acc.BillingCity,
-                'AWS_Sync_Status__c'  => acc.AWS_Sync_Status__c
+                'AWS_Sync_Status__c'  => 'Pending'
             };
 
             HttpRequest req = new HttpRequest();
@@ -65,27 +66,43 @@ public class AccountAWSSyncHandler {
             req.setTimeout(120000);
 
             try {
-                System.debug(LoggingLevel.DEBUG, 'AWS Account Sync request body: ' + requestBody);
+                System.debug(LoggingLevel.INFO, 
+                    'AWS Account Sync - Starting callout for Account: ' + acc.Id + 
+                    ' | Request Body: ' + requestBody);
+
                 Http http = new Http();
                 HttpResponse res = http.send(req);
                 Integer statusCode = res.getStatusCode();
+                String responseBody = res.getBody();
 
                 if (statusCode >= 200 && statusCode < 300) {
+                    // SUCCESS
                     acc.AWS_Sync_Status__c = 'Synced';
                     acc.Last_AWS_Sync_Date__c = System.now();
+                    acc.AWS_Sync_Error_Message__c = 'Success';
+
+                    System.debug(LoggingLevel.INFO, 
+                        'AWS Account Sync SUCCESS - Account: ' + acc.Id + 
+                        ' | Status Code: ' + statusCode);
                 } else {
+                    // FAILURE - non-2xx response
                     acc.AWS_Sync_Status__c = 'Failed';
-                    System.debug(LoggingLevel.ERROR,
-                        'AWS Account Sync failed for Account ' + acc.Id +
-                        '. HTTP ' + statusCode + ' ' + res.getStatus() +
-                        '; response body: ' + res.getBody());
+                    acc.AWS_Sync_Error_Message__c = 'HTTP ' + statusCode + ' - ' + responseBody;
+
+                    System.debug(LoggingLevel.ERROR, 
+                        'AWS Account Sync FAILED - Account: ' + acc.Id + 
+                        ' | Status Code: ' + statusCode + 
+                        ' | Response: ' + responseBody);
                 }
             } catch (Exception e) {
+                // FAILURE - exception
                 acc.AWS_Sync_Status__c = 'Failed';
-                System.debug(LoggingLevel.ERROR,
-                    'AWS Account Sync callout exception for Account ' + acc.Id +
-                    ': ' + e.getTypeName() + ': ' + e.getMessage() +
-                    '\n' + e.getStackTraceString());
+                acc.AWS_Sync_Error_Message__c = e.getTypeName() + ': ' + e.getMessage();
+
+                System.debug(LoggingLevel.ERROR, 
+                    'AWS Account Sync EXCEPTION - Account: ' + acc.Id + 
+                    ' | ' + e.getTypeName() + ': ' + e.getMessage() + 
+                    '\nStack Trace: ' + e.getStackTraceString());
             }
 
             toUpdate.add(acc);
