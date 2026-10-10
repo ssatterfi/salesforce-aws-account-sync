@@ -46,4 +46,57 @@ Real-time integration that syncs Salesforce Account records to Amazon DynamoDB u
 
 ## Project Structure
 
- 
+ ├── force-app/
+│   └── main/default/
+│       ├── classes/
+│       │   ├── AccountAWSSyncHandler.cls
+│       │   └── AccountAWSSyncQueueable.cls
+│       └── triggers/
+│           └── AccountAWSSyncTrigger.trigger
+├── aws/
+│   ├── lambda/
+│   │   └── salesforce_account_sync.py
+│   └── iam/
+│       └── dynamodb-policy.json
+├── images/
+│   └── architecture.png
+└── README.md
+
+## Setup Overview
+
+### Salesforce
+- Create custom fields on Account
+- Deploy Apex Trigger + Handler + Queueable
+- Configure External Credential (AWS Signature Version 4)
+- Configure Named Credential
+- Assign External Credential Principal to a Permission Set
+
+### AWS
+- Create DynamoDB table `SalesforceAccounts` (Partition key: `Id`)
+- Create Lambda function and attach DynamoDB permissions
+- Create HTTP API in API Gateway with IAM authorization
+- Create IAM user with `execute-api:Invoke` permission
+
+## Security
+
+- API Gateway protected with **AWS IAM Authorization**
+- Salesforce uses **AWS Signature Version 4** via Named Credential
+- Least-privilege IAM policy for Lambda (`dynamodb:PutItem` only)
+- No hard-coded credentials in Apex
+
+## Screenshots
+
+> Add your screenshots here
+
+- Salesforce Account record showing **Synced** status
+- DynamoDB item
+- Lambda / API Gateway CloudWatch logs
+
+## Author
+
+[Scott E Satterfield]  
+Salesforce + AWS Integration Project | 2026
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
