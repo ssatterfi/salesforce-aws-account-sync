@@ -1,8 +1,8 @@
 {
   "version": 2,
   "orgId": "00Dak00000Gj74LEAR",
-  "writtenAt": "2026-10-04T17:48:54.891Z",
-  "generation": 936,
+  "writtenAt": "2026-10-10T18:46:20.396Z",
+  "generation": 1196,
   "inventory": [],
   "sobjects": {
     "descriptions": []
@@ -16,7 +16,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ActionLinkGroupTemplate",
@@ -25,7 +25,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AIApplication",
@@ -34,7 +34,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AIApplicationConfig",
@@ -43,7 +43,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AnalyticSnapshot",
@@ -52,7 +52,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AnimationRule",
@@ -61,7 +61,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexClass",
@@ -70,7 +70,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexComponent",
@@ -79,7 +79,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexEmailNotifications",
@@ -88,7 +88,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexPage",
@@ -97,7 +97,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexTestSuite",
@@ -106,7 +106,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApexTrigger",
@@ -115,7 +115,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApiNamedQuery",
@@ -124,7 +124,16 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "AppFrameworkApp",
+      "directoryName": "appFrameworkApps",
+      "suffix": "appFrameworkApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AppFrameworkTemplateBundle",
@@ -132,7 +141,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AppMenu",
@@ -141,7 +150,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ApprovalProcess",
@@ -150,7 +159,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AssignmentRules",
@@ -161,7 +170,7 @@
       "childXmlNames": [
         "AssignmentRule"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AuraDefinitionBundle",
@@ -169,7 +178,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AuthProvider",
@@ -178,7 +187,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "AutoResponseRules",
@@ -189,7 +198,7 @@
       "childXmlNames": [
         "AutoResponseRule"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "BatchProcessJobDefinition",
@@ -198,7 +207,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "BlacklistedConsumer",
@@ -207,7 +216,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "BrandingSet",
@@ -216,7 +225,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "BriefcaseDefinition",
@@ -225,7 +234,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CallCenter",
@@ -234,7 +243,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CallCoachingMediaProvider",
@@ -243,7 +252,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CanvasMetadata",
@@ -252,7 +261,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Certificate",
@@ -261,7 +270,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ChannelLayout",
@@ -270,7 +279,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ChatterExtension",
@@ -279,7 +288,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ChoiceList",
@@ -288,7 +297,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CleanDataService",
@@ -297,7 +306,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Community",
@@ -306,7 +315,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ConnectedApp",
@@ -315,7 +324,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ContentAsset",
@@ -324,7 +333,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ContentTypeBundle",
@@ -333,7 +342,25 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "ContentWorkspace",
+      "directoryName": "contentWorkspaces",
+      "suffix": "workspace",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "ContentWorkspacePermission",
+      "directoryName": "contentWorkspacePermissions",
+      "suffix": "contentWorkspacePermission",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ConversationMessageDefinition",
@@ -342,7 +369,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ConvIntelligenceSignalRule",
@@ -351,7 +378,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CorsWhitelistOrigin",
@@ -360,7 +387,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CspTrustedSite",
@@ -369,7 +396,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomApplication",
@@ -378,7 +405,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomApplicationComponent",
@@ -387,7 +414,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomFeedFilter",
@@ -396,7 +423,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomHelpMenuSection",
@@ -405,7 +432,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomIndex",
@@ -414,7 +441,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomLabels",
@@ -425,7 +452,7 @@
       "childXmlNames": [
         "CustomLabel"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomMetadata",
@@ -434,7 +461,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomNotificationType",
@@ -443,7 +470,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomObject",
@@ -463,7 +490,7 @@
         "ValidationRule",
         "WebLink"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomObjectTranslation",
@@ -472,7 +499,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomPageWebLink",
@@ -481,7 +508,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomPermission",
@@ -490,7 +517,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomSite",
@@ -499,7 +526,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "CustomTab",
@@ -508,7 +535,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Dashboard",
@@ -517,7 +544,7 @@
       "inFolder": true,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DataCategoryGroup",
@@ -526,7 +553,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DataWeaveResource",
@@ -535,7 +562,16 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "DebugLevel",
+      "directoryName": "debugLevels",
+      "suffix": "debugLevel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DelegateGroup",
@@ -544,7 +580,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DgtAssetMgmtProvider",
@@ -553,7 +589,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DgtAssetMgmtPrvdLghtCpnt",
@@ -562,7 +598,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DigitalExperienceBundle",
@@ -573,7 +609,7 @@
       "childXmlNames": [
         "DigitalExperience"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Document",
@@ -581,7 +617,7 @@
       "inFolder": true,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "DuplicateRule",
@@ -590,7 +626,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EclairGeoData",
@@ -599,7 +635,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmailServicesFunction",
@@ -608,7 +644,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmailTemplate",
@@ -617,7 +653,7 @@
       "inFolder": true,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmbeddedServiceBranding",
@@ -626,7 +662,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmbeddedServiceConfig",
@@ -635,7 +671,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmbeddedServiceFlowConfig",
@@ -644,7 +680,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EmbeddedServiceMenuSettings",
@@ -653,7 +689,16 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "EngmtChannelTypeConfig",
+      "directoryName": "engmtChannelTypeConfigs",
+      "suffix": "engmtChannelTypeConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EntitlementProcess",
@@ -662,7 +707,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EntitlementTemplate",
@@ -671,7 +716,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EscalationRules",
@@ -682,7 +727,7 @@
       "childXmlNames": [
         "EscalationRule"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "EventRelayConfig",
@@ -691,7 +736,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExperienceContainer",
@@ -700,7 +745,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExperiencePropertyTypeBundle",
@@ -709,7 +754,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExternalAuthIdentityProvider",
@@ -718,7 +763,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExternalClientApplication",
@@ -727,7 +772,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExternalCredential",
@@ -736,7 +781,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExternalDataSource",
@@ -747,7 +792,7 @@
       "childXmlNames": [
         "ExternalDataSrcDescriptor"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExternalServiceRegistration",
@@ -756,7 +801,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppCanvasSettings",
@@ -765,7 +810,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppConfigurablePolicies",
@@ -774,7 +819,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppGlobalOauthSettings",
@@ -783,7 +828,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppMobileConfigurablePolicies",
@@ -792,7 +837,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppMobileSettings",
@@ -801,7 +846,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppNotificationSettings",
@@ -810,7 +855,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppOauthConfigurablePolicies",
@@ -819,7 +864,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppOauthSecuritySettings",
@@ -828,7 +873,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppOauthSettings",
@@ -837,7 +882,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppPushConfigurablePolicies",
@@ -846,7 +891,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppPushSettings",
@@ -855,7 +900,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ExtlClntAppSamlConfigurablePolicies",
@@ -864,7 +909,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FieldRestrictionRule",
@@ -873,7 +918,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FlexiPage",
@@ -882,7 +927,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Flow",
@@ -891,7 +936,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FlowCategory",
@@ -900,7 +945,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FlowDefinition",
@@ -909,7 +954,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FlowTest",
@@ -918,7 +963,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "FlowValueMap",
@@ -927,7 +972,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "GatewayProviderPaymentMethodType",
@@ -936,7 +981,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "GlobalValueSet",
@@ -945,7 +990,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "GlobalValueSetTranslation",
@@ -954,7 +999,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Group",
@@ -963,7 +1008,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "HomePageComponent",
@@ -972,7 +1017,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "HomePageLayout",
@@ -981,7 +1026,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "IframeWhiteListUrlSettings",
@@ -990,7 +1035,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "InboundNetworkConnection",
@@ -999,7 +1044,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "InvocableActionExtension",
@@ -1008,7 +1053,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "IPAddressRange",
@@ -1017,7 +1062,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Layout",
@@ -1026,7 +1071,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LeadConvertSettings",
@@ -1035,7 +1080,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Letterhead",
@@ -1044,7 +1089,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningBolt",
@@ -1053,7 +1098,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningComponentBundle",
@@ -1061,7 +1106,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningExperienceTheme",
@@ -1070,7 +1115,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningMessageChannel",
@@ -1079,7 +1124,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningOnboardingConfig",
@@ -1088,7 +1133,16 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "LightningOutApp",
+      "directoryName": "lightningOutApps",
+      "suffix": "lightningOutApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LightningTypeBundle",
@@ -1097,7 +1151,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "LiveChatSensitiveDataRule",
@@ -1106,7 +1160,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ManagedContentType",
@@ -1115,7 +1169,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ManagedEventSubscription",
@@ -1124,7 +1178,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MatchingRules",
@@ -1135,7 +1189,7 @@
       "childXmlNames": [
         "MatchingRule"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "McpServerDefinition",
@@ -1144,7 +1198,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MessagingChannel",
@@ -1153,7 +1207,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MilestoneType",
@@ -1162,7 +1216,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MLDataDefinition",
@@ -1171,7 +1225,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MLPredictionDefinition",
@@ -1180,7 +1234,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MLRecommendationDefinition",
@@ -1189,7 +1243,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MobileApplicationDetail",
@@ -1198,7 +1252,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MutingPermissionSet",
@@ -1207,7 +1261,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "MyDomainDiscoverableLogin",
@@ -1216,7 +1270,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "NamedCredential",
@@ -1225,7 +1279,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "NetworkBranding",
@@ -1234,7 +1288,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "NotificationTypeConfig",
@@ -1243,7 +1297,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "OauthCustomScope",
@@ -1252,7 +1306,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "OauthTokenExchangeHandler",
@@ -1261,7 +1315,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "OutboundNetworkConnection",
@@ -1270,7 +1324,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PathAssistant",
@@ -1279,7 +1333,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PaymentGatewayProvider",
@@ -1288,7 +1342,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PermissionSet",
@@ -1297,7 +1351,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PermissionSetGroup",
@@ -1306,7 +1360,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PermissionSetLicenseDefinition",
@@ -1315,7 +1369,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PlatformCachePartition",
@@ -1324,7 +1378,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PlatformEventChannel",
@@ -1333,7 +1387,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PlatformEventChannelMember",
@@ -1342,7 +1396,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PlatformEventMigration",
@@ -1351,7 +1405,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PlatformEventSubscriberConfig",
@@ -1360,7 +1414,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PostTemplate",
@@ -1369,7 +1423,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ProcessFlowMigration",
@@ -1378,7 +1432,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ProfilePasswordPolicy",
@@ -1387,7 +1441,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ProfileSessionSetting",
@@ -1396,7 +1450,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Prompt",
@@ -1405,7 +1459,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PublicKeyCertificate",
@@ -1414,7 +1468,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "PublicKeyCertificateSet",
@@ -1423,7 +1477,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Queue",
@@ -1432,7 +1486,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "QuickAction",
@@ -1441,7 +1495,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "RecommendationStrategy",
@@ -1450,7 +1504,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "RecordActionDeployment",
@@ -1459,7 +1513,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "RedirectWhitelistUrl",
@@ -1468,7 +1522,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "RemoteSiteSetting",
@@ -1477,7 +1531,16 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "ReplyEmailConfig",
+      "directoryName": "replyEmailConfigs",
+      "suffix": "replyEmailConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Report",
@@ -1486,7 +1549,7 @@
       "inFolder": true,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "ReportType",
@@ -1495,7 +1558,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "RestrictionRule",
@@ -1504,7 +1567,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Role",
@@ -1513,7 +1576,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SamlSsoConfig",
@@ -1522,7 +1585,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SearchCustomization",
@@ -1531,7 +1594,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SearchOrgWideObjectConfig",
@@ -1540,7 +1603,16 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
+    },
+    {
+      "xmlName": "SecurityCustomBaseline",
+      "directoryName": "securityCustomBaselines",
+      "suffix": "securityCustomBaseline",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Settings",
@@ -1549,7 +1621,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SharingRules",
@@ -1562,7 +1634,7 @@
         "SharingGuestRule",
         "SharingOwnerRule"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SharingSet",
@@ -1571,7 +1643,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SiteDotCom",
@@ -1580,7 +1652,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "StandardValueSet",
@@ -1589,7 +1661,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "StandardValueSetTranslation",
@@ -1598,7 +1670,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "StaticDynamicValMapping",
@@ -1607,7 +1679,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "StaticResource",
@@ -1616,7 +1688,7 @@
       "inFolder": false,
       "metaFile": true,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "SynonymDictionary",
@@ -1625,7 +1697,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "TagSet",
@@ -1636,7 +1708,7 @@
       "childXmlNames": [
         "Tag"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "TopicsForObjects",
@@ -1645,7 +1717,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "TransactionSecurityPolicy",
@@ -1654,7 +1726,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Translations",
@@ -1663,7 +1735,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "UIBundle",
@@ -1672,7 +1744,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "UiFormatSpecificationSet",
@@ -1681,7 +1753,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "UserProvisioningConfig",
@@ -1690,7 +1762,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "WaveAnalyticAssetCollection",
@@ -1699,7 +1771,7 @@
       "inFolder": false,
       "metaFile": false,
       "childXmlNames": [],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     },
     {
       "xmlName": "Workflow",
@@ -1717,7 +1789,7 @@
         "WorkflowSend",
         "WorkflowTask"
       ],
-      "observedAt": "2026-10-03T20:45:35.882Z"
+      "observedAt": "2026-10-10T17:11:31.214Z"
     }
   ],
   "metadataListings": [
