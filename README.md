@@ -6,7 +6,9 @@ Real-time integration that syncs Salesforce Account records to Amazon DynamoDB u
 
  <img width="1168" height="784" alt="image" src="https://github.com/user-attachments/assets/9737431d-c33b-435f-b54a-18f35621abe6" />
 
-**Flow:**
+## Flow
+
+
 1. Account is created or updated in Salesforce
 2. Apex Trigger enqueues a Queueable job
 3. Queueable performs a secure callout using Named Credential (AWS Signature Version 4)
