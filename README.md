@@ -100,7 +100,21 @@ salesforce-aws-account-sync/
 
 ## Author
 
-[Scott E Satterfield]  
+[Scott E Satterfield]
+
+
+### Alternative (even cleaner – recommended)
+
+```markdown
+## Project Structure
+
+| Path | Description |
+|------|-------------|
+| `force-app/main/default/classes/` | Apex Handler + Queueable classes |
+| `force-app/main/default/triggers/` | Account trigger |
+| `aws/lambda/` | Python Lambda function |
+| `aws/iam/` | IAM policy for DynamoDB access |
+| `images/` | Architecture diagram and screenshots |
 Salesforce + AWS Integration Project | 2026
 
 ## License
