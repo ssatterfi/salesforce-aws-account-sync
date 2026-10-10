@@ -1,29 +1,101 @@
-# Salesforce AWS Account Sync
+# Salesforce Account → AWS Real-time Sync
 
-Real-time Salesforce Account synchronization to AWS (API Gateway, Lambda, and DynamoDB) with custom sync status tracking. This repository uses the Salesforce DX source format.
+Real-time integration that syncs Salesforce Account records to Amazon DynamoDB using API Gateway and Lambda. Includes custom field tracking, error logging, and IAM-secured API access.
 
-## Project structure
+## Architecture
 
-Salesforce metadata is in `force-app/main/default`:
+ <img width="1168" height="784" alt="image" src="https://github.com/user-attachments/assets/9737431d-c33b-435f-b54a-18f35621abe6" />
 
-- `classes/AccountAWSSyncHandler.cls` prepares Account data for synchronization.
-- `classes/AccountAWSSyncQueueable.cls` sends Account data to AWS asynchronously.
-- `triggers/AccountAWSSyncTrigger.trigger` starts a sync after Account insert or sync-relevant update.
-- `objects/Account/fields` defines the sync status and last-sync date fields.
+## Flow
 
-## Deploy
 
-Install the Salesforce CLI (`sf`), authenticate to a Salesforce org, then deploy the source:
+1. Account is created or updated in Salesforce
+2. Apex Trigger enqueues a Queueable job
+3. Queueable performs a secure callout using Named Credential (AWS Signature Version 4)
+4. API Gateway (IAM authorized) invokes Lambda
+5. Lambda writes the record to DynamoDB
+6. Salesforce updates `AWS_Sync_Status__c`, `Last_AWS_Sync_Date__c`, and `AWS_Sync_Error_Message__c`
 
-```sh
-sf org login web --alias my-org --instance-url https://login.salesforce.com
-sf project deploy start --source-dir force-app --target-org my-org
-```
+## Features
 
-Use `https://test.salesforce.com` for a sandbox login.
+- Real-time sync on Account create/update
+- Custom fields for tracking:
+  - `AWS_Sync_Status__c` (Pending / Synced / Failed)
+  - `Last_AWS_Sync_Date__c`
+  - `AWS_Sync_Error_Message__c`
+- Queueable Apex (best practice for callouts)
+- Success and failure logging
+- **IAM-secured API Gateway** using AWS Signature Version 4
+- Fully free-tier compatible (AWS Free Tier + Salesforce Developer Edition)
 
-## Configure AWS callout
+## Tech Stack
 
-Before syncing Accounts, configure a Salesforce Named Credential with the API name `AWS_Account_Sync` and a URL for the AWS API Gateway endpoint that accepts the handler's POST request. Configure its authentication to match the AWS endpoint. The Apex handler references this Named Credential as `callout:AWS_Account_Sync`.
+| Layer              | Technology                          |
+|--------------------|-------------------------------------|
+| CRM                | Salesforce (Apex Trigger + Queueable) |
+| Authentication     | Named Credential + External Credential (AWS Signature V4) |
+| API                | Amazon API Gateway (HTTP API)       |
+| Compute            | AWS Lambda (Python 3.12)            |
+| Database           | Amazon DynamoDB                     |
 
-The handler queues a callout-capable Queueable job, which also works when Account changes originate in batch or other asynchronous processing. Updates made by the sync itself to `AWS_Sync_Status__c` and `Last_AWS_Sync_Date__c` do not start another sync; changes to the Account data sent to AWS do. The `AWS_Sync_Status__c` field supports `Pending`, `Synced`, and `Failed`. Successful responses also update `Last_AWS_Sync_Date__c`.
+ 
+ ## Project Structure
+
+```text
+salesforce-aws-account-sync/
+├── force-app/                        # Salesforce DX source
+│   └── main/default/
+│       ├── classes/
+│       │   ├── AccountAWSSyncHandler.cls
+│       │   └── AccountAWSSyncQueueable.cls
+│       └── triggers/
+│           └── AccountAWSSyncTrigger.trigger
+│
+├── aws/                              # AWS resources
+│   ├── lambda/
+│   │   └── salesforce_account_sync.py
+│   └── iam/
+│       └── dynamodb-policy.json
+│
+├── images/
+│   └── architecture.png
+│
+└── README.md
+
+## Setup Overview
+
+### Salesforce
+- Create custom fields on Account
+- Deploy Apex Trigger + Handler + Queueable
+- Configure External Credential (AWS Signature Version 4)
+- Configure Named Credential
+- Assign External Credential Principal to a Permission Set
+
+### AWS
+- Create DynamoDB table `SalesforceAccounts` (Partition key: `Id`)
+- Create Lambda function and attach DynamoDB permissions
+- Create HTTP API in API Gateway with IAM authorization
+- Create IAM user with `execute-api:Invoke` permission
+
+## Security
+
+- API Gateway protected with **AWS IAM Authorization**
+- Salesforce uses **AWS Signature Version 4** via Named Credential
+- Least-privilege IAM policy for Lambda (`dynamodb:PutItem` only)
+- No hard-coded credentials in Apex
+
+## Screenshots
+
+> Add your screenshots here
+
+- Salesforce Account record showing **Synced** status
+- DynamoDB item
+- Lambda / API Gateway CloudWatch logs
+
+## Author
+
+[Scott E Satterfield]
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
