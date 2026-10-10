@@ -44,22 +44,28 @@ Real-time integration that syncs Salesforce Account records to Amazon DynamoDB u
 | Compute            | AWS Lambda (Python 3.12)            |
 | Database           | Amazon DynamoDB                     |
 
-## Project Structure
+ 
+ ## Project Structure
 
- ├── force-app/
+```text
+salesforce-aws-account-sync/
+├── force-app/                        # Salesforce DX source
 │   └── main/default/
 │       ├── classes/
 │       │   ├── AccountAWSSyncHandler.cls
 │       │   └── AccountAWSSyncQueueable.cls
 │       └── triggers/
 │           └── AccountAWSSyncTrigger.trigger
-├── aws/
+│
+├── aws/                              # AWS resources
 │   ├── lambda/
 │   │   └── salesforce_account_sync.py
 │   └── iam/
 │       └── dynamodb-policy.json
+│
 ├── images/
 │   └── architecture.png
+│
 └── README.md
 
 ## Setup Overview
