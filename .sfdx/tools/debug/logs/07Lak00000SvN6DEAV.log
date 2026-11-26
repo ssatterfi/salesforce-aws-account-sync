@@ -1,0 +1,195 @@
+66.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:24:30.2 (2623461)|USER_INFO|[EXTERNAL]|005ak00000AJWsr|ssatterf@mindful-impala-f33hr7.com|(GMT-04:00) Venezuela Time (America/Caracas)|GMT-04:00
+11:24:30.2 (2737072)|EXECUTION_STARTED
+11:24:30.2 (2769372)|CODE_UNIT_STARTED|[EXTERNAL]|FutureHandler - state load
+11:24:30.2 (4223384)|CODE_UNIT_FINISHED|FutureHandler - state load
+11:24:30.2 (4245144)|EXECUTION_FINISHED
+11:24:30.21 (21862596)|USER_INFO|[EXTERNAL]|005ak00000AJWsr|ssatterf@mindful-impala-f33hr7.com|(GMT-04:00) Venezuela Time (America/Caracas)|GMT-04:00
+11:24:30.21 (21909446)|EXECUTION_STARTED
+11:24:30.21 (21931096)|CODE_UNIT_STARTED|[EXTERNAL]|01pak00000ZPaNV|AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+11:24:30.21 (23775361)|HEAP_ALLOCATE|[95]|Bytes:3
+11:24:30.21 (23925962)|HEAP_ALLOCATE|[100]|Bytes:152
+11:24:30.21 (23993813)|HEAP_ALLOCATE|[417]|Bytes:408
+11:24:30.21 (24035403)|HEAP_ALLOCATE|[430]|Bytes:408
+11:24:30.21 (24102774)|HEAP_ALLOCATE|[317]|Bytes:6
+11:24:30.21 (24118064)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:24:30.21 (24123834)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2
+11:24:30.21 (24145824)|METHOD_ENTRY|[4]|01pak00000ZPaNV|AccountAWSSyncHandler.AccountAWSSyncHandler()
+11:24:30.21 (24169094)|STATEMENT_EXECUTE|[4]
+11:24:30.21 (24188435)|STATEMENT_EXECUTE|[4]
+11:24:30.21 (24212955)|METHOD_EXIT|[4]|AccountAWSSyncHandler
+11:24:30.21 (24239115)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:24:30.21 (24266375)|VARIABLE_SCOPE_BEGIN|[15]|accountIds|Set<Id>|true|false
+11:24:30.21 (24423136)|VARIABLE_ASSIGNMENT|[15]|accountIds|["001ak00003pacUUAAY"]|0x11d588b6
+11:24:30.21 (24441977)|STATEMENT_EXECUTE|[15]
+11:24:30.21 (24446197)|STATEMENT_EXECUTE|[16]
+11:24:30.21 (24451947)|HEAP_ALLOCATE|[16]|Bytes:130
+11:24:30.21 (24469027)|HEAP_ALLOCATE|[16]|Bytes:4
+11:24:30.21 (24505117)|HEAP_ALLOCATE|[16]|Bytes:7
+11:24:30.21 (24572848)|HEAP_ALLOCATE|[68]|Bytes:5
+11:24:30.21 (24604238)|HEAP_ALLOCATE|[74]|Bytes:5
+11:24:30.21 (24613898)|HEAP_ALLOCATE|[82]|Bytes:7
+11:24:30.21 (26486003)|SOQL_EXECUTE_BEGIN|[16]|Aggregations:0|SELECT Id, Name, Industry, Phone, Website, BillingCity, AWS_Sync_Status__c, Last_AWS_Sync_Date__c FROM Account WHERE Id = :tmpVar1
+11:24:30.21 (36578744)|SOQL_EXECUTE_END|[16]|Rows:1
+11:24:30.21 (36622035)|HEAP_ALLOCATE|[16]|Bytes:8
+11:24:30.21 (36636335)|HEAP_ALLOCATE|[16]|Bytes:49
+11:24:30.21 (36705925)|HEAP_ALLOCATE|[16]|Bytes:8
+11:24:30.21 (36781946)|VARIABLE_SCOPE_BEGIN|[16]|accounts|List<Account>|true|false
+11:24:30.21 (36897167)|VARIABLE_ASSIGNMENT|[16]|accounts|[{"Id":"001ak00003pacUUAAY","Name":"Test Trigger"}]|0x7e3c5528
+11:24:30.21 (36910857)|STATEMENT_EXECUTE|[23]
+11:24:30.21 (36920237)|HEAP_ALLOCATE|[23]|Bytes:4
+11:24:30.21 (37065368)|VARIABLE_SCOPE_BEGIN|[23]|toUpdate|List<Account>|true|false
+11:24:30.21 (37076458)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:24:30.21 (37103059)|VARIABLE_ASSIGNMENT|[23]|toUpdate|[]|0x1e623722
+11:24:30.21 (37484292)|HEAP_ALLOCATE|[25]|Bytes:5
+11:24:30.21 (37518122)|HEAP_ALLOCATE|[25]|Bytes:12
+11:24:30.21 (37531472)|VARIABLE_SCOPE_BEGIN|[25]|acc|Account|true|false
+11:24:30.21 (37568312)|VARIABLE_ASSIGNMENT|[25]|acc|{"Id":"001ak00003pacUUAAY","Name":"Test Trigger"}|0x4035cb37
+11:24:30.21 (37577482)|STATEMENT_EXECUTE|[25]
+11:24:30.21 (37581432)|STATEMENT_EXECUTE|[27]
+11:24:30.21 (37584473)|HEAP_ALLOCATE|[27]|Bytes:7
+11:24:30.21 (37675223)|HEAP_ALLOCATE|[27]|Bytes:-4
+11:24:30.21 (37724644)|VARIABLE_ASSIGNMENT|[27]|this.AWS_Sync_Status__c|"Pending"|0x4035cb37
+11:24:30.21 (37730904)|STATEMENT_EXECUTE|[29]
+11:24:30.21 (37742124)|HEAP_ALLOCATE|[29]|Bytes:4
+11:24:30.21 (37752554)|HEAP_ALLOCATE|[30]|Bytes:2
+11:24:30.21 (37810634)|HEAP_ALLOCATE|[31]|Bytes:4
+11:24:30.21 (37832155)|HEAP_ALLOCATE|[32]|Bytes:8
+11:24:30.21 (37944055)|HEAP_ALLOCATE|[33]|Bytes:5
+11:24:30.21 (37954715)|HEAP_ALLOCATE|[34]|Bytes:7
+11:24:30.21 (37970606)|HEAP_ALLOCATE|[35]|Bytes:11
+11:24:30.21 (37979866)|HEAP_ALLOCATE|[36]|Bytes:18
+11:24:30.21 (37996356)|VARIABLE_SCOPE_BEGIN|[29]|payload|Map<String,ANY>|true|false
+11:24:30.21 (38055416)|VARIABLE_ASSIGNMENT|[29]|payload|"Map of size 7 too large to display"|0x103d9c47
+11:24:30.21 (38067496)|STATEMENT_EXECUTE|[39]
+11:24:30.21 (38156057)|VARIABLE_SCOPE_BEGIN|[39]|req|System.HttpRequest|true|false
+11:24:30.21 (38353949)|VARIABLE_ASSIGNMENT|[39]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x46b5f564
+11:24:30.21 (38362919)|STATEMENT_EXECUTE|[40]
+11:24:30.21 (38366079)|HEAP_ALLOCATE|[40]|Bytes:24
+11:24:30.21 (38495360)|STATEMENT_EXECUTE|[41]
+11:24:30.21 (38498300)|HEAP_ALLOCATE|[41]|Bytes:4
+11:24:30.21 (38523250)|STATEMENT_EXECUTE|[42]
+11:24:30.21 (38525780)|HEAP_ALLOCATE|[42]|Bytes:12
+11:24:30.21 (38528650)|HEAP_ALLOCATE|[42]|Bytes:16
+11:24:30.21 (38567610)|STATEMENT_EXECUTE|[43]
+11:24:30.21 (38589621)|HEAP_ALLOCATE|[43]|Bytes:24
+11:24:30.21 (38611321)|SYSTEM_METHOD_ENTRY|[1]|JSON.JSON()
+11:24:30.21 (38618221)|STATEMENT_EXECUTE|[1]
+11:24:30.21 (38628301)|SYSTEM_METHOD_EXIT|[1]|JSON
+11:24:30.21 (38644891)|METHOD_ENTRY|[43]||System.JSON.serialize(Object)
+11:24:30.21 (40787208)|METHOD_EXIT|[43]||System.JSON.serialize(Object)
+11:24:30.21 (40863599)|STATEMENT_EXECUTE|[44]
+11:24:30.21 (40900529)|STATEMENT_EXECUTE|[46]
+11:24:30.21 (40904339)|STATEMENT_EXECUTE|[46]
+11:24:30.21 (40907149)|STATEMENT_EXECUTE|[47]
+11:24:30.21 (40943599)|VARIABLE_SCOPE_BEGIN|[47]|http|System.Http|true|false
+11:24:30.21 (40979900)|VARIABLE_ASSIGNMENT|[47]|http|"System.Http[]"|0x3d669226
+11:24:30.21 (40994340)|STATEMENT_EXECUTE|[48]
+11:24:30.21 (41095661)|CALLOUT_REQUEST|[48]|System.HttpRequest[Endpoint=callout:AWS_Account_Sync, Method=POST]
+11:24:30.53 (53936763)|NAMED_CREDENTIAL_RESPONSE|NamedCallout[Named Credential Id=null, Named Credential Name=null, Status Code=0, Content-Type=null, Response Size bytes=0, Overall Callout Time ms=0, Connect Time ms=0, Interceptor Time ms=0
+11:24:30.21 (54808410)|EXCEPTION_THROWN|[48]|System.CalloutException: We couldn't access the credential(s). You might not have the required permissions, or the external credential "WS_Account_Sync_External" might not exist.
+11:24:30.21 (54943571)|HEAP_ALLOCATE|[48]|Bytes:157
+11:24:30.21 (55083092)|VARIABLE_SCOPE_BEGIN|[56]|e|Exception|true|false
+11:24:30.21 (55339185)|VARIABLE_ASSIGNMENT|[56]|e|"common.apex.runtime.impl.ExecutionException: We couldn't access the credential(s). You might not have the required permissions, or the external credential \"WS_Account_Sync_External\" might not exist."|0x259e3d51
+11:24:30.21 (55366295)|STATEMENT_EXECUTE|[56]
+11:24:30.21 (55370725)|STATEMENT_EXECUTE|[57]
+11:24:30.21 (55374665)|HEAP_ALLOCATE|[57]|Bytes:6
+11:24:30.21 (55449555)|VARIABLE_ASSIGNMENT|[57]|this.AWS_Sync_Status__c|"Failed"|0x4035cb37
+11:24:30.21 (55456645)|STATEMENT_EXECUTE|[58]
+11:24:30.21 (55459105)|HEAP_ALLOCATE|[58]|Bytes:15
+11:24:30.21 (55520506)|HEAP_ALLOCATE|[58]|Bytes:153
+11:24:30.21 (55559276)|HEAP_ALLOCATE|[58]|Bytes:168
+11:24:30.21 (55599687)|USER_DEBUG|[58]|DEBUG|Callout error: We couldn't access the credential(s). You might not have the required permissions, or the external credential "WS_Account_Sync_External" might not exist.
+11:24:30.21 (55617627)|STATEMENT_EXECUTE|[61]
+11:24:30.21 (55669037)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:24:30.21 (55688677)|HEAP_ALLOCATE|[25]|Bytes:5
+11:24:30.21 (55715318)|VARIABLE_ASSIGNMENT|[25]|acc|null|
+11:24:30.21 (55758218)|STATEMENT_EXECUTE|[64]
+11:24:30.21 (55761438)|STATEMENT_EXECUTE|[65]
+11:24:30.21 (55814968)|DML_BEGIN|[65]|Op:Update|Type:Account|Rows:1
+11:24:30.21 (55902809)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:24:30.21 (85495227)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:Account:001ak00003pacUU
+11:24:30.21 (85604168)|VALIDATION_RULE|03dak00000Cuxph|AWS_Sync_Status_Control
+11:24:30.21 (91172093)|VALIDATION_FORMULA|AND(
+    ISCHANGED(AWS_Sync_Status__c),
+    ISPICKVAL(AWS_Sync_Status__c, "Synced"),
+    NOT($Profile.Name = "System Administrator")
+)|$Profile.Name=System Administrator , AWS_Sync_Status__c=Failed
+11:24:30.21 (91221643)|VALIDATION_PASS
+11:24:30.21 (91236523)|CODE_UNIT_FINISHED|Validation:Account:001ak00003pacUU
+11:24:30.21 (115958303)|PUSH_TRACE_FLAGS|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger|APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,ERROR;DATA_ACCESS,NONE;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:24:30.21 (116033953)|CODE_UNIT_STARTED|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger on Account trigger event AfterUpdate|__sfdc_trigger/AccountAWSSyncTrigger
+11:24:30.21 (142487436)|HEAP_DUMP|[1]|07nak000000TSH3|AccountAWSSyncTrigger|none|1
+11:24:30.21 (143500954)|EXCEPTION_THROWN|[11]|System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+11:24:30.21 (143849377)|FATAL_ERROR|System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+
+Class.AccountAWSSyncHandler.handleAccounts: line 11, column 1
+Trigger.AccountAWSSyncTrigger: line 3, column 1
+11:24:30.21 (143877607)|FATAL_ERROR|System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+
+Class.AccountAWSSyncHandler.handleAccounts: line 11, column 1
+Trigger.AccountAWSSyncTrigger: line 3, column 1
+11:24:30.143 (143916988)|CUMULATIVE_LIMIT_USAGE
+11:24:30.143 (143916988)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 200
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:24:30.143 (143916988)|CUMULATIVE_LIMIT_USAGE_END
+
+11:24:30.21 (144131099)|CODE_UNIT_FINISHED|AccountAWSSyncTrigger on Account trigger event AfterUpdate|__sfdc_trigger/AccountAWSSyncTrigger
+11:24:30.21 (144192750)|POP_TRACE_FLAGS|[EXTERNAL]|01qak00000A9zPt|AccountAWSSyncTrigger|APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:24:30.21 (181099827)|DML_END|[65]
+11:24:30.21 (181217838)|EXCEPTION_THROWN|[65]|System.DmlException: Update failed. First exception on row 0 with id 001ak00003pacUUAAY; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, AccountAWSSyncTrigger: execution of AfterUpdate
+
+caused by: System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+
+Class.AccountAWSSyncHandler.handleAccounts: line 11, column 1
+Trigger.AccountAWSSyncTrigger: line 3, column 1: []
+11:24:30.21 (182462218)|HEAP_ALLOCATE|[65]|Bytes:432
+11:24:30.21 (182558668)|FATAL_ERROR|System.DmlException: Update failed. First exception on row 0 with id 001ak00003pacUUAAY; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, AccountAWSSyncTrigger: execution of AfterUpdate
+
+caused by: System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+
+Class.AccountAWSSyncHandler.handleAccounts: line 11, column 1
+Trigger.AccountAWSSyncTrigger: line 3, column 1: []
+
+Class.AccountAWSSyncHandler.doCalloutAndUpdate: line 65, column 1
+11:24:30.21 (182574228)|FATAL_ERROR|System.DmlException: Update failed. First exception on row 0 with id 001ak00003pacUUAAY; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, AccountAWSSyncTrigger: execution of AfterUpdate
+
+caused by: System.AsyncException: Future method cannot be called from a future or batch method: AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+
+Class.AccountAWSSyncHandler.handleAccounts: line 11, column 1
+Trigger.AccountAWSSyncTrigger: line 3, column 1: []
+
+Class.AccountAWSSyncHandler.doCalloutAndUpdate: line 65, column 1
+11:24:30.182 (182586029)|CUMULATIVE_LIMIT_USAGE
+11:24:30.182 (182586029)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 200
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:24:30.182 (182586029)|CUMULATIVE_LIMIT_USAGE_END
+
+11:24:30.21 (182650129)|CODE_UNIT_FINISHED|AccountAWSSyncHandler.doCalloutAndUpdate(Set<Id>)
+11:24:30.21 (182662759)|EXECUTION_FINISHED

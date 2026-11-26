@@ -1,0 +1,468 @@
+61.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:15:22.3 (3147317)|USER_INFO|[EXTERNAL]|005ak00000AJWsr|ssatterf@mindful-impala-f33hr7.com|(GMT-04:00) Venezuela Time (America/Caracas)|GMT-04:00
+11:15:22.3 (3228778)|EXECUTION_STARTED
+11:15:22.3 (3263098)|CODE_UNIT_STARTED|[EXTERNAL]|01pak00000E9b21|TestSampleDataController.importSampleData()
+11:15:22.3 (7185314)|HEAP_ALLOCATE|[95]|Bytes:3
+11:15:22.3 (7335446)|HEAP_ALLOCATE|[100]|Bytes:152
+11:15:22.3 (7403417)|HEAP_ALLOCATE|[417]|Bytes:408
+11:15:22.3 (7466198)|HEAP_ALLOCATE|[430]|Bytes:408
+11:15:22.3 (7547329)|HEAP_ALLOCATE|[317]|Bytes:6
+11:15:22.3 (7565399)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:22
+11:15:22.3 (7620199)|METHOD_ENTRY|[2]|01pak00000E9b21|TestSampleDataController.TestSampleDataController()
+11:15:22.3 (7636140)|STATEMENT_EXECUTE|[2]
+11:15:22.3 (7659310)|STATEMENT_EXECUTE|[2]
+11:15:22.3 (7667600)|METHOD_EXIT|[2]|TestSampleDataController
+11:15:22.3 (7709121)|HEAP_ALLOCATE|[68]|Bytes:5
+11:15:22.3 (7755601)|HEAP_ALLOCATE|[74]|Bytes:5
+11:15:22.3 (7768531)|HEAP_ALLOCATE|[82]|Bytes:7
+11:15:22.3 (7836772)|STATEMENT_EXECUTE|[4]
+11:15:22.3 (7840112)|STATEMENT_EXECUTE|[5]
+11:15:22.3 (7860142)|HEAP_ALLOCATE|[5]|Bytes:118
+11:15:22.3 (7874452)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+11:15:22.3 (7878303)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (7892363)|SYSTEM_METHOD_EXIT|[1]|Test
+11:15:22.3 (7929453)|METHOD_ENTRY|[5]||System.Test.startTest()
+11:15:22.3 (10541994)|METHOD_EXIT|[5]||System.Test.startTest()
+11:15:22.3 (10552854)|STATEMENT_EXECUTE|[6]
+11:15:22.3 (15472492)|HEAP_ALLOCATE|[6]|Bytes:13
+11:15:22.3 (15499192)|METHOD_ENTRY|[1]|01pak00000E9b1z|SampleDataController.SampleDataController()
+11:15:22.3 (15505302)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (15533082)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (17548266)|SYSTEM_MODE_ENTER|false
+11:15:22.3 (17896250)|HEAP_ALLOCATE|[6]|Bytes:5
+11:15:22.3 (17918540)|SYSTEM_MODE_EXIT|false
+11:15:22.3 (17931120)|METHOD_EXIT|[1]|SampleDataController
+11:15:22.3 (17978521)|METHOD_ENTRY|[6]|01pak00000E9b1z|SampleDataController.importSampleData()
+11:15:22.3 (18013471)|SYSTEM_MODE_ENTER|false
+11:15:22.3 (18018761)|HEAP_ALLOCATE|[4]|Bytes:5
+11:15:22.3 (18025711)|STATEMENT_EXECUTE|[3]
+11:15:22.3 (18037512)|STATEMENT_EXECUTE|[4]
+11:15:22.3 (18040722)|HEAP_ALLOCATE|[4]|Bytes:19
+11:15:22.3 (18063062)|HEAP_ALLOCATE|[4]|Bytes:4
+11:15:22.3 (20932485)|SOQL_EXECUTE_BEGIN|[4]|Aggregations:0|SELECT Id FROM Case
+11:15:22.3 (28299822)|SOQL_EXECUTE_END|[4]|Rows:0
+11:15:22.3 (28326542)|HEAP_ALLOCATE|[4]|Bytes:4
+11:15:22.3 (28338902)|HEAP_ALLOCATE|[4]|Bytes:0
+11:15:22.3 (28426803)|HEAP_ALLOCATE|[4]|Bytes:4
+11:15:22.3 (28565115)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:15:22.3 (28574485)|STATEMENT_EXECUTE|[5]
+11:15:22.3 (28579045)|HEAP_ALLOCATE|[5]|Bytes:26
+11:15:22.3 (28608075)|HEAP_ALLOCATE|[5]|Bytes:4
+11:15:22.3 (31190176)|SOQL_EXECUTE_BEGIN|[5]|Aggregations:0|SELECT Id FROM Property__c
+11:15:22.3 (42093074)|SOQL_EXECUTE_END|[5]|Rows:0
+11:15:22.3 (42150704)|HEAP_ALLOCATE|[5]|Bytes:4
+11:15:22.3 (42198245)|HEAP_ALLOCATE|[5]|Bytes:0
+11:15:22.3 (42279676)|HEAP_ALLOCATE|[5]|Bytes:4
+11:15:22.3 (42361047)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:15:22.3 (42376177)|STATEMENT_EXECUTE|[6]
+11:15:22.3 (42381817)|HEAP_ALLOCATE|[6]|Bytes:24
+11:15:22.3 (42395077)|HEAP_ALLOCATE|[6]|Bytes:4
+11:15:22.3 (44878877)|SOQL_EXECUTE_BEGIN|[6]|Aggregations:0|SELECT Id FROM Broker__c
+11:15:22.3 (58376106)|SOQL_EXECUTE_END|[6]|Rows:0
+11:15:22.3 (58412626)|HEAP_ALLOCATE|[6]|Bytes:4
+11:15:22.3 (58444817)|HEAP_ALLOCATE|[6]|Bytes:0
+11:15:22.3 (58527398)|HEAP_ALLOCATE|[6]|Bytes:4
+11:15:22.3 (58657309)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:15:22.3 (58678279)|STATEMENT_EXECUTE|[7]
+11:15:22.3 (58684569)|HEAP_ALLOCATE|[7]|Bytes:22
+11:15:22.3 (58698270)|HEAP_ALLOCATE|[7]|Bytes:4
+11:15:22.3 (61444532)|SOQL_EXECUTE_BEGIN|[7]|Aggregations:0|SELECT Id FROM Contact
+11:15:22.3 (71226676)|SOQL_EXECUTE_END|[7]|Rows:0
+11:15:22.3 (71247607)|HEAP_ALLOCATE|[7]|Bytes:4
+11:15:22.3 (71255877)|HEAP_ALLOCATE|[7]|Bytes:0
+11:15:22.3 (71331518)|HEAP_ALLOCATE|[7]|Bytes:4
+11:15:22.3 (71389168)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:15:22.3 (71397358)|STATEMENT_EXECUTE|[9]
+11:15:22.3 (71447899)|METHOD_ENTRY|[9]|01pak00000E9b1z|SampleDataController.insertBrokers()
+11:15:22.3 (71522400)|HEAP_ALLOCATE|[15]|Bytes:5
+11:15:22.3 (71527540)|STATEMENT_EXECUTE|[14]
+11:15:22.3 (71529540)|STATEMENT_EXECUTE|[15]
+11:15:22.3 (71533080)|HEAP_ALLOCATE|[15]|Bytes:70
+11:15:22.3 (71543000)|HEAP_ALLOCATE|[15]|Bytes:4
+11:15:22.3 (71814183)|SOQL_EXECUTE_BEGIN|[15]|Aggregations:0|SELECT Id, Body FROM StaticResource WHERE Name = 'sample_data_brokers'
+11:15:22.3 (86228882)|SOQL_EXECUTE_END|[15]|Rows:1
+11:15:22.3 (86261913)|HEAP_ALLOCATE|[15]|Bytes:8
+11:15:22.3 (86317893)|HEAP_ALLOCATE|[15]|Bytes:2887
+11:15:22.3 (86389824)|HEAP_ALLOCATE|[15]|Bytes:8
+11:15:22.3 (86411804)|HEAP_ALLOCATE|[15]|Bytes:40
+11:15:22.3 (86481465)|HEAP_ALLOCATE|[15]|Bytes:12
+11:15:22.3 (86513336)|VARIABLE_SCOPE_BEGIN|[15]|brokersResource|StaticResource|true|false
+11:15:22.3 (86713778)|VARIABLE_ASSIGNMENT|[15]|brokersResource|{"Body":BLOB(2850 bytes),"Id":"081ak000009OrcIAAS"}|0x62a1859e
+11:15:22.3 (86723518)|STATEMENT_EXECUTE|[20]
+11:15:22.3 (86908360)|HEAP_ALLOCATE|[20]|Bytes:2850
+11:15:22.3 (86944231)|VARIABLE_SCOPE_BEGIN|[20]|brokersJSON|String|false|false
+11:15:22.3 (86985241)|VARIABLE_ASSIGNMENT|[20]|brokersJSON|"[\n    {\n        \"Bro (2830 more) ..."
+11:15:22.3 (86990081)|STATEMENT_EXECUTE|[21]
+11:15:22.3 (86993681)|HEAP_ALLOCATE|[23]|Bytes:69
+11:15:22.3 (87184553)|HEAP_ALLOCATE|[23]|Bytes:33
+11:15:22.3 (87213514)|SYSTEM_METHOD_ENTRY|[1]|Type.Type()
+11:15:22.3 (87217804)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (87234304)|SYSTEM_METHOD_EXIT|[1]|Type
+11:15:22.3 (87243094)|HEAP_ALLOCATE|[23]|Bytes:8
+11:15:22.3 (87264854)|HEAP_ALLOCATE|[23]|Bytes:8
+11:15:22.3 (87289685)|VARIABLE_SCOPE_BEGIN|[4]|this|System.Type|true|false
+11:15:22.3 (87482887)|VARIABLE_ASSIGNMENT|[4]|this|{}|0x407eb78b
+11:15:22.3 (87504227)|VARIABLE_SCOPE_BEGIN|[4]|apextype|java:common.apex.runtime.ApexObjectType|true|false
+11:15:22.3 (87640309)|VARIABLE_ASSIGNMENT|[4]|apextype|"List<Broker__c>"|0x1384efdd
+11:15:22.3 (89561961)|HEAP_ALLOCATE|[23]|Bytes:8
+11:15:22.3 (89595242)|HEAP_ALLOCATE|[21]|Bytes:24
+11:15:22.3 (89604702)|SYSTEM_METHOD_ENTRY|[1]|JSON.JSON()
+11:15:22.3 (89608942)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (89616182)|SYSTEM_METHOD_EXIT|[1]|JSON
+11:15:22.3 (89646392)|METHOD_ENTRY|[21]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (90740715)|METHOD_EXIT|[21]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (90803406)|VARIABLE_SCOPE_BEGIN|[21]|brokers|List<Broker__c>|true|false
+11:15:22.3 (90817276)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+11:15:22.3 (90875387)|VARIABLE_ASSIGNMENT|[21]|brokers|"List of size 8 too large to display"|0x10d80351
+11:15:22.3 (90941297)|STATEMENT_EXECUTE|[25]
+11:15:22.3 (91011518)|DML_BEGIN|[25]|Op:Insert|Type:Broker__c|Rows:8
+11:15:22.3 (91046049)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+11:15:22.3 (210047256)|DML_END|[25]
+11:15:22.3 (210094307)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210140117)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210142497)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210164458)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210166198)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210167838)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210185998)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (210187618)|HEAP_ALLOCATE|[25]|Bytes:-4
+11:15:22.3 (211123589)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+11:15:22.3 (212929890)|METHOD_EXIT|[9]|01pak00000E9b1z|SampleDataController.insertBrokers()
+11:15:22.3 (212964060)|STATEMENT_EXECUTE|[10]
+11:15:22.3 (213013771)|METHOD_ENTRY|[10]|01pak00000E9b1z|SampleDataController.insertProperties()
+11:15:22.3 (213093902)|HEAP_ALLOCATE|[29]|Bytes:5
+11:15:22.3 (213102502)|STATEMENT_EXECUTE|[28]
+11:15:22.3 (213103702)|STATEMENT_EXECUTE|[29]
+11:15:22.3 (213107992)|HEAP_ALLOCATE|[29]|Bytes:73
+11:15:22.3 (213136522)|HEAP_ALLOCATE|[29]|Bytes:4
+11:15:22.3 (213430086)|SOQL_EXECUTE_BEGIN|[29]|Aggregations:0|SELECT Id, Body FROM StaticResource WHERE Name = 'sample_data_properties'
+11:15:22.3 (220232586)|SOQL_EXECUTE_END|[29]|Rows:1
+11:15:22.3 (220274846)|HEAP_ALLOCATE|[29]|Bytes:8
+11:15:22.3 (220316367)|HEAP_ALLOCATE|[29]|Bytes:9125
+11:15:22.3 (220358267)|HEAP_ALLOCATE|[29]|Bytes:8
+11:15:22.3 (220425798)|HEAP_ALLOCATE|[29]|Bytes:12
+11:15:22.3 (220478708)|VARIABLE_SCOPE_BEGIN|[29]|propertiesResource|StaticResource|true|false
+11:15:22.3 (220657451)|VARIABLE_ASSIGNMENT|[29]|propertiesResource|{"Body":BLOB(9088 bytes),"Id":"081ak000009OrcKAAS"}|0x41575eb6
+11:15:22.3 (220663041)|STATEMENT_EXECUTE|[34]
+11:15:22.3 (220972214)|HEAP_ALLOCATE|[34]|Bytes:9088
+11:15:22.3 (221001375)|VARIABLE_SCOPE_BEGIN|[34]|propertiesJSON|String|false|false
+11:15:22.3 (221025575)|VARIABLE_ASSIGNMENT|[34]|propertiesJSON|"[\n    {\n        \"Nam (9068 more) ..."
+11:15:22.3 (221028205)|STATEMENT_EXECUTE|[35]
+11:15:22.3 (221030835)|HEAP_ALLOCATE|[37]|Bytes:71
+11:15:22.3 (221102046)|HEAP_ALLOCATE|[37]|Bytes:8
+11:15:22.3 (221112366)|HEAP_ALLOCATE|[37]|Bytes:8
+11:15:22.3 (221141246)|VARIABLE_SCOPE_BEGIN|[4]|this|System.Type|true|false
+11:15:22.3 (221222587)|VARIABLE_ASSIGNMENT|[4]|this|{}|0x19bc0f59
+11:15:22.3 (221225207)|VARIABLE_SCOPE_BEGIN|[4]|apextype|java:common.apex.runtime.ApexObjectType|true|false
+11:15:22.3 (221263398)|VARIABLE_ASSIGNMENT|[4]|apextype|"List<Property__c>"|0x3bbee530
+11:15:22.3 (221354419)|HEAP_ALLOCATE|[37]|Bytes:8
+11:15:22.3 (221388489)|METHOD_ENTRY|[35]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (222556693)|METHOD_EXIT|[35]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (222566173)|VARIABLE_SCOPE_BEGIN|[35]|properties|List<Property__c>|true|false
+11:15:22.3 (222576743)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:52
+11:15:22.3 (222600524)|VARIABLE_ASSIGNMENT|[35]|properties|"List of size 12 too large to display"|0x4067be1f
+11:15:22.3 (222603674)|STATEMENT_EXECUTE|[39]
+11:15:22.3 (222622684)|METHOD_ENTRY|[39]|01pak00000E9b1z|SampleDataController.randomizeDateListed(List<Property__c>)
+11:15:22.3 (222658174)|VARIABLE_SCOPE_BEGIN|[57]|properties|List<Property__c>|true|false
+11:15:22.3 (222678234)|VARIABLE_ASSIGNMENT|[57]|properties|"List of size 12 too large to display"|0x4067be1f
+11:15:22.3 (222691755)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (222695285)|STATEMENT_EXECUTE|[57]
+11:15:22.3 (222869907)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (222891767)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (222904997)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (223011138)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":1.0},"Baths__c":3.0,"Price__c":975000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Stunning Victorian","Address__c":"18 Henry St","Location__Longitude__s":-71.11095,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Cambridge","Zip__c":"01742","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"victorian","Beds__c":4.0,"Location__Latitude__s":42.35663,"Status__c":"Available","State__c":"MA"}|0x40f4d4a
+11:15:22.3 (223025919)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (223026859)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (223105420)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (223340522)|VARIABLE_SCOPE_BEGIN|[2]|System.Math.E|Double|false|true
+11:15:22.3 (223355282)|VARIABLE_SCOPE_BEGIN|[3]|System.Math.PI|Double|false|true
+11:15:22.3 (223367113)|HEAP_ALLOCATE|[60]|Bytes:206
+11:15:22.3 (223387143)|SYSTEM_METHOD_ENTRY|[1]|Math.Math()
+11:15:22.3 (223390323)|STATEMENT_EXECUTE|[1]
+11:15:22.3 (223469034)|SYSTEM_METHOD_EXIT|[1]|Math
+11:15:22.3 (223480934)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (223511314)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (223596405)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (223668496)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (223751507)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-08-17T00:00:00.000Z"|0x40f4d4a
+11:15:22.3 (223760007)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (223768747)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (223773097)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (223836908)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":2.0},"Baths__c":4.0,"Price__c":1200000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Ultimate Sophisticat (3 more) ...","Address__c":"24 Pearl St","Location__Longitude__s":-71.10869,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Cambridge","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"colonial","Beds__c":5.0,"Location__Latitude__s":42.359103,"Status__c":"Contracted","State__c":"MA"}|0x59d10b08
+11:15:22.3 (223841268)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (223842108)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (223856708)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (223862608)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (223873949)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (223893209)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (223908779)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (223925449)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-07-27T00:00:00.000Z"|0x59d10b08
+11:15:22.3 (223930459)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (223936099)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (223939079)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (224023150)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":3.0},"Baths__c":4.0,"Price__c":825000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Modern City Living","Address__c":"72 Francis St","Location__Longitude__s":-71.106827,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":5.0,"Location__Latitude__s":42.335435,"Status__c":"Pre Market","State__c":"MA"}|0x5b48cd
+11:15:22.3 (224027340)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (224028200)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (224037621)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224056361)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (224070091)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (224085901)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224097581)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (224120612)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-09-06T00:00:00.000Z"|0x5b48cd
+11:15:22.3 (224125482)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (224130772)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (224133712)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (224180682)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":4.0},"Baths__c":4.0,"Price__c":930000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Stunning Colonial","Address__c":"32 Prince St","Location__Longitude__s":-71.110448,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Cambridge","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"colonial","Beds__c":5.0,"Location__Latitude__s":42.360642,"Status__c":"Available","State__c":"MA"}|0x65cbb0fc
+11:15:22.3 (224184512)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (224185322)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (224192912)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224200793)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (224208133)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (224221203)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224230153)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (224241183)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-07-09T00:00:00.000Z"|0x65cbb0fc
+11:15:22.3 (224245233)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (224250473)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (224252993)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (224885551)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":5.0},"Baths__c":2.0,"Price__c":850000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Waterfront in the Ci (2 more) ...","Address__c":"110 Baxter Street","Location__Longitude__s":-71.084454,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":3.0,"Location__Latitude__s":42.368168,"Status__c":"Closed","State__c":"MA"}|0x18f97c5
+11:15:22.3 (224889271)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (224890121)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (224897171)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224902361)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (224909291)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (224921631)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (224930531)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (224943441)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-09-26T00:00:00.000Z"|0x18f97c5
+11:15:22.3 (224950111)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (224955161)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (224957601)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225002602)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":6.0},"Baths__c":2.0,"Price__c":725000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Quiet Retreat","Address__c":"448 Hanover St","Location__Longitude__s":-71.052617,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"colonial","Beds__c":4.0,"Location__Latitude__s":42.366855,"Status__c":"Contracted","State__c":"MA"}|0x7e7a370a
+11:15:22.3 (225006372)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225007242)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225020372)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225035582)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225045503)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225057923)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225066443)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225082543)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-07-07T00:00:00.000Z"|0x7e7a370a
+11:15:22.3 (225086773)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225091973)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225094113)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225146014)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":7.0},"Baths__c":1.0,"Price__c":450000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"City Living","Address__c":"127 Endicott St","Location__Longitude__s":-71.057352,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"colonial","Beds__c":3.0,"Location__Latitude__s":42.365003,"Status__c":"Available","State__c":"MA"}|0x1af4a235
+11:15:22.3 (225149564)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225150354)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225157664)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225164494)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225170904)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225183164)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225190954)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225200644)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-08-25T00:00:00.000Z"|0x1af4a235
+11:15:22.3 (225204734)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225209474)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225211695)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225266275)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":8.0},"Baths__c":4.0,"Price__c":450000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Heart of Harvard Squ (3 more) ...","Address__c":"48 Brattle St","Location__Longitude__s":-71.121653,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Cambridge","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"victorian","Beds__c":5.0,"Location__Latitude__s":42.374117,"Status__c":"Under Agreement","State__c":"MA"}|0x36fe2220
+11:15:22.3 (225269805)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225270595)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225277595)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225282615)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225289105)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225309326)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225317046)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225326426)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-08-16T00:00:00.000Z"|0x36fe2220
+11:15:22.3 (225330366)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225335126)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225337286)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225380227)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":1.0},"Baths__c":3.0,"Price__c":450000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Seaport District Ret (4 more) ...","Address__c":"121 Harborwalk","Location__Longitude__s":-71.049327,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":3.0,"Location__Latitude__s":42.35695,"Status__c":"Available","State__c":"MA"}|0x3f41363a
+11:15:22.3 (225383587)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225384477)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225391367)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225396127)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225402657)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225414247)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225421227)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225430137)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-08-02T00:00:00.000Z"|0x3f41363a
+11:15:22.3 (225433987)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225438277)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225440397)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225484538)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":2.0},"Baths__c":2.0,"Price__c":650000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Contemporary City Li (4 more) ...","Address__c":"640 Harrison Ave","Location__Longitude__s":-71.068781,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":2.0,"Location__Latitude__s":42.339892,"Status__c":"Available","State__c":"MA"}|0x75d4a221
+11:15:22.3 (225487958)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225488758)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225495548)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225500208)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225506638)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225518368)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225525508)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225534598)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-07-27T00:00:00.000Z"|0x75d4a221
+11:15:22.3 (225538548)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225542968)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225545018)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225589089)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":3.0},"Baths__c":3.0,"Price__c":690000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Architectural Detail (1 more) ...","Address__c":"95 Gloucester St","Location__Longitude__s":-71.084407,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":3.0,"Location__Latitude__s":42.349693,"Status__c":"Available","State__c":"MA"}|0x679a2f60
+11:15:22.3 (225592359)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225593229)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225599959)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225604579)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225610729)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225622099)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225629129)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225638110)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-07-16T00:00:00.000Z"|0x679a2f60
+11:15:22.3 (225641970)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225646440)|HEAP_ALLOCATE|[58]|Bytes:68
+11:15:22.3 (225648580)|VARIABLE_SCOPE_BEGIN|[58]|property|Property__c|true|false
+11:15:22.3 (225691890)|VARIABLE_ASSIGNMENT|[58]|property|{"Broker__r":{"Broker_Id__c":4.0},"Baths__c":3.0,"Price__c":845000.0,"Picture__c":"https://s3-us-west-2 (68 more) ...","Name":"Contemporary Luxury","Address__c":"145 Commonwealth Ave","Location__Longitude__s":-71.075311,"Thumbnail__c":"https://s3-us-west-2 (70 more) ...","City__c":"Boston","Zip__c":"02420","Description__c":"Lorem ipsum dolor si (6 more) ...","Tags__c":"contemporary","Beds__c":4.0,"Location__Latitude__s":42.352466,"Status__c":"Available","State__c":"MA"}|0x60bc904c
+11:15:22.3 (225695260)|STATEMENT_EXECUTE|[58]
+11:15:22.3 (225696050)|STATEMENT_EXECUTE|[59]
+11:15:22.3 (225702950)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225707350)|METHOD_ENTRY|[60]||System.Math.random()
+11:15:22.3 (225713400)|METHOD_EXIT|[60]||System.Math.random()
+11:15:22.3 (225724691)|HEAP_ALLOCATE|[60]|Bytes:4
+11:15:22.3 (225731821)|HEAP_ALLOCATE|[59]|Bytes:-4
+11:15:22.3 (225740571)|VARIABLE_ASSIGNMENT|[59]|this.Date_Listed__c|"2026-08-27T00:00:00.000Z"|0x60bc904c
+11:15:22.3 (225744361)|HEAP_ALLOCATE|[58]|Bytes:5
+11:15:22.3 (225755031)|VARIABLE_ASSIGNMENT|[58]|property|null|
+11:15:22.3 (225764241)|METHOD_EXIT|[39]|01pak00000E9b1z|SampleDataController.randomizeDateListed(List<Property__c>)
+11:15:22.3 (225766691)|STATEMENT_EXECUTE|[40]
+11:15:22.3 (225810342)|DML_BEGIN|[40]|Op:Insert|Type:Property__c|Rows:12
+11:15:22.3 (225835362)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:52
+11:15:22.3 (377072698)|DML_END|[40]
+11:15:22.3 (377103198)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377137649)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377139599)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377141019)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377142329)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377143859)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377145309)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377146689)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377148009)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377149479)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377150739)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377152219)|HEAP_ALLOCATE|[40]|Bytes:-4
+11:15:22.3 (377918808)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:52
+11:15:22.3 (378058970)|METHOD_EXIT|[10]|01pak00000E9b1z|SampleDataController.insertProperties()
+11:15:22.3 (378077470)|STATEMENT_EXECUTE|[11]
+11:15:22.3 (378112450)|METHOD_ENTRY|[11]|01pak00000E9b1z|SampleDataController.insertContacts()
+11:15:22.3 (378189281)|HEAP_ALLOCATE|[44]|Bytes:5
+11:15:22.3 (378196551)|STATEMENT_EXECUTE|[43]
+11:15:22.3 (378197801)|STATEMENT_EXECUTE|[44]
+11:15:22.3 (378202371)|HEAP_ALLOCATE|[44]|Bytes:71
+11:15:22.3 (378221362)|HEAP_ALLOCATE|[44]|Bytes:4
+11:15:22.3 (378548525)|SOQL_EXECUTE_BEGIN|[44]|Aggregations:0|SELECT Id, Body FROM StaticResource WHERE Name = 'sample_data_contacts'
+11:15:22.3 (388845156)|SOQL_EXECUTE_END|[44]|Rows:1
+11:15:22.3 (388883006)|HEAP_ALLOCATE|[44]|Bytes:8
+11:15:22.3 (388896907)|HEAP_ALLOCATE|[44]|Bytes:760
+11:15:22.3 (388949087)|HEAP_ALLOCATE|[44]|Bytes:8
+11:15:22.3 (389013398)|HEAP_ALLOCATE|[44]|Bytes:12
+11:15:22.3 (389031628)|VARIABLE_SCOPE_BEGIN|[44]|contactsResource|StaticResource|true|false
+11:15:22.3 (389266171)|VARIABLE_ASSIGNMENT|[44]|contactsResource|{"Body":BLOB(723 bytes),"Id":"081ak000009OrcJAAS"}|0x4cc88e3
+11:15:22.3 (389278651)|STATEMENT_EXECUTE|[49]
+11:15:22.3 (389384932)|HEAP_ALLOCATE|[49]|Bytes:723
+11:15:22.3 (389505234)|VARIABLE_SCOPE_BEGIN|[49]|contactsJSON|String|false|false
+11:15:22.3 (389535904)|VARIABLE_ASSIGNMENT|[49]|contactsJSON|"[\n    {\n        \"Fir (703 more) ..."
+11:15:22.3 (389555004)|STATEMENT_EXECUTE|[50]
+11:15:22.3 (389557774)|HEAP_ALLOCATE|[52]|Bytes:67
+11:15:22.3 (389640285)|HEAP_ALLOCATE|[52]|Bytes:8
+11:15:22.3 (389652675)|HEAP_ALLOCATE|[52]|Bytes:8
+11:15:22.3 (389662516)|VARIABLE_SCOPE_BEGIN|[4]|this|System.Type|true|false
+11:15:22.3 (389743247)|VARIABLE_ASSIGNMENT|[4]|this|{}|0x684b3d4d
+11:15:22.3 (389755127)|VARIABLE_SCOPE_BEGIN|[4]|apextype|java:common.apex.runtime.ApexObjectType|true|false
+11:15:22.3 (389830568)|VARIABLE_ASSIGNMENT|[4]|apextype|"List<Contact>"|0x4b8ea015
+11:15:22.3 (389884018)|HEAP_ALLOCATE|[52]|Bytes:8
+11:15:22.3 (389920779)|METHOD_ENTRY|[50]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (390356984)|METHOD_EXIT|[50]||System.JSON.deserialize(String, System.Type)
+11:15:22.3 (390364354)|VARIABLE_SCOPE_BEGIN|[50]|contacts|List<Contact>|true|false
+11:15:22.3 (390374554)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:24
+11:15:22.3 (390470115)|VARIABLE_ASSIGNMENT|[50]|contacts|[{"Email":"bholmes@goodmail.com","LastName":"Holmes","FirstName":"Brad","Phone":"617-555-0143"},{"Email":"leslie@pentagon.com","LastName":"Martin","FirstName":"Leslie","Phone":"617-555-0112"},{"Email":"julywalker@brain.com","LastName":"Walker","FirstName":"July","Phone":"617-555-0170"},{"Email":"annaj@mymail.com","LastName":"Jones","FirstName":"Anna","Phone":"617-555-0181"},{"Email":"jconnor@goodmail.com","LastName":"Connor","FirstName":"John","Phone":"617-555-0133"}]|0x2b65a217
+11:15:22.3 (390476605)|STATEMENT_EXECUTE|[54]
+11:15:22.3 (390516636)|DML_BEGIN|[54]|Op:Insert|Type:Contact|Rows:5
+11:15:22.3 (390543386)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:24
+11:15:22.3 (561279651)|DML_END|[54]
+11:15:22.3 (561292901)|HEAP_ALLOCATE|[54]|Bytes:-4
+11:15:22.3 (561321892)|HEAP_ALLOCATE|[54]|Bytes:-4
+11:15:22.3 (561323722)|HEAP_ALLOCATE|[54]|Bytes:-4
+11:15:22.3 (561325352)|HEAP_ALLOCATE|[54]|Bytes:-4
+11:15:22.3 (561326802)|HEAP_ALLOCATE|[54]|Bytes:-4
+11:15:22.3 (562327264)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:24
+11:15:22.3 (562360454)|METHOD_EXIT|[11]|01pak00000E9b1z|SampleDataController.insertContacts()
+11:15:22.3 (562372274)|SYSTEM_MODE_EXIT|false
+11:15:22.3 (562420135)|METHOD_EXIT|[6]|01pak00000E9b1z|SampleDataController.importSampleData()
+11:15:22.3 (562428015)|STATEMENT_EXECUTE|[7]
+11:15:22.3 (562448125)|METHOD_ENTRY|[7]||System.Test.stopTest()
+11:15:22.3 (562635317)|METHOD_EXIT|[7]||System.Test.stopTest()
+11:15:22.3 (562638667)|STATEMENT_EXECUTE|[9]
+11:15:22.3 (562645127)|HEAP_ALLOCATE|[9]|Bytes:31
+11:15:22.3 (562668538)|HEAP_ALLOCATE|[9]|Bytes:4
+11:15:22.3 (562951021)|SOQL_EXECUTE_BEGIN|[9]|Aggregations:0|SELECT COUNT() FROM Property__c
+11:15:22.3 (576633621)|SOQL_EXECUTE_END|[9]|Rows:12
+11:15:22.3 (576668102)|HEAP_ALLOCATE|[9]|Bytes:4
+11:15:22.3 (576684142)|VARIABLE_SCOPE_BEGIN|[9]|propertyNumber|Integer|false|false
+11:15:22.3 (576690232)|HEAP_ALLOCATE|[9]|Bytes:4
+11:15:22.3 (576733452)|VARIABLE_ASSIGNMENT|[9]|propertyNumber|12
+11:15:22.3 (576738412)|STATEMENT_EXECUTE|[10]
+11:15:22.3 (576745313)|HEAP_ALLOCATE|[10]|Bytes:29
+11:15:22.3 (576763903)|HEAP_ALLOCATE|[10]|Bytes:4
+11:15:22.3 (576964305)|SOQL_EXECUTE_BEGIN|[10]|Aggregations:0|SELECT COUNT() FROM Broker__c
+11:15:22.3 (588534482)|SOQL_EXECUTE_END|[10]|Rows:8
+11:15:22.3 (588576652)|HEAP_ALLOCATE|[10]|Bytes:4
+11:15:22.3 (588598513)|VARIABLE_SCOPE_BEGIN|[10]|brokerNumber|Integer|false|false
+11:15:22.3 (588606543)|HEAP_ALLOCATE|[10]|Bytes:4
+11:15:22.3 (588654113)|VARIABLE_ASSIGNMENT|[10]|brokerNumber|8
+11:15:22.3 (588661303)|STATEMENT_EXECUTE|[11]
+11:15:22.3 (588669523)|HEAP_ALLOCATE|[11]|Bytes:27
+11:15:22.3 (588692454)|HEAP_ALLOCATE|[11]|Bytes:4
+11:15:22.3 (588945437)|SOQL_EXECUTE_BEGIN|[11]|Aggregations:0|SELECT COUNT() FROM Contact
+11:15:22.3 (599512731)|SOQL_EXECUTE_END|[11]|Rows:5
+11:15:22.3 (599552731)|HEAP_ALLOCATE|[11]|Bytes:4
+11:15:22.3 (599574862)|VARIABLE_SCOPE_BEGIN|[11]|contactNumber|Integer|false|false
+11:15:22.3 (599582012)|HEAP_ALLOCATE|[11]|Bytes:4
+11:15:22.3 (599656433)|VARIABLE_ASSIGNMENT|[11]|contactNumber|5
+11:15:22.3 (599663413)|STATEMENT_EXECUTE|[13]
+11:15:22.3 (599677823)|HEAP_ALLOCATE|[13]|Bytes:33
+11:15:22.3 (599749914)|HEAP_ALLOCATE|[13]|Bytes:51
+11:15:22.3 (599773164)|SYSTEM_METHOD_ENTRY|[4]|Assert.Assert()
+11:15:22.3 (599776524)|STATEMENT_EXECUTE|[4]
+11:15:22.3 (599798764)|SYSTEM_METHOD_EXIT|[4]|Assert
+11:15:22.3 (599821894)|METHOD_ENTRY|[13]||System.Assert.isTrue(Boolean, String)
+11:15:22.3 (599934796)|METHOD_EXIT|[13]||System.Assert.isTrue(Boolean, String)
+11:15:22.3 (599938136)|STATEMENT_EXECUTE|[14]
+11:15:22.3 (599941236)|HEAP_ALLOCATE|[14]|Bytes:30
+11:15:22.3 (599959376)|METHOD_ENTRY|[14]||System.Assert.isTrue(Boolean, String)
+11:15:22.3 (599973966)|METHOD_EXIT|[14]||System.Assert.isTrue(Boolean, String)
+11:15:22.3 (599975736)|STATEMENT_EXECUTE|[15]
+11:15:22.3 (599977776)|HEAP_ALLOCATE|[15]|Bytes:31
+11:15:22.3 (599981406)|METHOD_ENTRY|[15]||System.Assert.isTrue(Boolean, String)
+11:15:22.3 (600191859)|METHOD_EXIT|[15]||System.Assert.isTrue(Boolean, String)
+11:15:22.600 (600208869)|CUMULATIVE_LIMIT_USAGE
+11:15:22.600 (600208869)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:15:22.600 (600208869)|TESTING_LIMITS
+11:15:22.600 (600208869)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 7 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 25 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:15:22.600 (600208869)|CUMULATIVE_LIMIT_USAGE_END
+
+11:15:22.3 (600301410)|CODE_UNIT_FINISHED|TestSampleDataController.importSampleData()
+11:15:22.3 (600309290)|EXECUTION_FINISHED

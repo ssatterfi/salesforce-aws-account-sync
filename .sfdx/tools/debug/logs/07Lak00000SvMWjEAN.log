@@ -1,0 +1,58 @@
+33.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:15:30.3 (3046459)|USER_INFO|[EXTERNAL]|005ak00000AJWsr|ssatterf@mindful-impala-f33hr7.com|Venezuela Time|GMT-04:00
+11:15:30.3 (3133620)|EXECUTION_STARTED
+11:15:30.3 (3185601)|CODE_UNIT_STARTED|[EXTERNAL]|01pak00000GCRpe|ContactsTodayController_test.TestContactsTodayController()
+11:15:30.3 (5514801)|HEAP_ALLOCATE|[95]|Bytes:3
+11:15:30.3 (5663182)|HEAP_ALLOCATE|[100]|Bytes:152
+11:15:30.3 (5733793)|HEAP_ALLOCATE|[417]|Bytes:408
+11:15:30.3 (5792684)|HEAP_ALLOCATE|[430]|Bytes:408
+11:15:30.3 (5885075)|HEAP_ALLOCATE|[317]|Bytes:6
+11:15:30.3 (5906936)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:21
+11:15:30.3 (5942046)|METHOD_ENTRY|[2]|01pak00000GCRpe|ContactsTodayController_test.ContactsTodayController_test()
+11:15:30.3 (5951206)|STATEMENT_EXECUTE|[2]
+11:15:30.3 (5961986)|STATEMENT_EXECUTE|[2]
+11:15:30.3 (5980847)|METHOD_EXIT|[2]|ContactsTodayController_test
+11:15:30.3 (6013717)|HEAP_ALLOCATE|[68]|Bytes:5
+11:15:30.3 (6068288)|HEAP_ALLOCATE|[74]|Bytes:5
+11:15:30.3 (6094638)|HEAP_ALLOCATE|[82]|Bytes:7
+11:15:30.3 (6173439)|STATEMENT_EXECUTE|[5]
+11:15:30.3 (6177189)|STATEMENT_EXECUTE|[7]
+11:15:30.3 (6183199)|HEAP_ALLOCATE|[7]|Bytes:27
+11:15:30.3 (6206249)|HEAP_ALLOCATE|[7]|Bytes:4
+11:15:30.3 (8611070)|SOQL_EXECUTE_BEGIN|[7]|Aggregations:0|SELECT ID FROM User LIMIT 1
+11:15:30.3 (17562475)|SOQL_EXECUTE_END|[7]|Rows:1
+11:15:30.3 (17621726)|HEAP_ALLOCATE|[7]|Bytes:8
+11:15:30.3 (17676296)|HEAP_ALLOCATE|[7]|Bytes:29
+11:15:30.3 (17830648)|HEAP_ALLOCATE|[7]|Bytes:8
+11:15:30.3 (17900889)|HEAP_ALLOCATE|[7]|Bytes:30
+11:15:30.3 (18001890)|HEAP_ALLOCATE|[7]|Bytes:8
+11:15:30.3 (18050481)|VARIABLE_SCOPE_BEGIN|[7]|u|User|true|false
+11:15:30.3 (18175043)|VARIABLE_ASSIGNMENT|[7]|u|{"Id":"005ak00000ISnOPAA1"}|0x62246e96
+11:15:30.3 (39060670)|EXCEPTION_THROWN|[9]|System.TypeException: System.runAs can only be used with an active user
+11:15:30.3 (39571527)|HEAP_ALLOCATE|[9]|Bytes:53
+11:15:30.3 (39696918)|FATAL_ERROR|System.TypeException: System.runAs can only be used with an active user
+
+Class.ContactsTodayController_test.TestContactsTodayController: line 9, column 1
+11:15:30.3 (39710328)|FATAL_ERROR|System.TypeException: System.runAs can only be used with an active user
+
+Class.ContactsTodayController_test.TestContactsTodayController: line 9, column 1
+11:15:30.39 (39724189)|CUMULATIVE_LIMIT_USAGE
+11:15:30.39 (39724189)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:15:30.39 (39724189)|CUMULATIVE_LIMIT_USAGE_END
+
+11:15:30.3 (39855190)|CODE_UNIT_FINISHED|ContactsTodayController_test.TestContactsTodayController()
+11:15:30.3 (39864850)|EXECUTION_FINISHED
